@@ -1,6 +1,6 @@
 # Chores4U
 
-A new Flutter project.
+A startup project using Flutter Flow and firebase for Pitch up 2024-2025.
 
 ## Getting Started
 
