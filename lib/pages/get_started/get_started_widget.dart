@@ -144,17 +144,8 @@ class _GetStartedWidgetState extends State<GetStartedWidget>
                 Align(
                   alignment: const AlignmentDirectional(0.0, 0.5),
                   child: FFButtonWidget(
-                    onPressed: () async {
-                      context.pushNamed(
-                        'null',
-                        extra: <String, dynamic>{
-                          kTransitionInfoKey: const TransitionInfo(
-                            hasTransition: true,
-                            transitionType: PageTransitionType.bottomToTop,
-                            duration: Duration(milliseconds: 300),
-                          ),
-                        },
-                      );
+                    onPressed: () {
+                      print('Button pressed ...');
                     },
                     text: 'SIGN UP',
                     options: FFButtonOptions(

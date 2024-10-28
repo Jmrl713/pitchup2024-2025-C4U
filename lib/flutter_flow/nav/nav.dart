@@ -45,11 +45,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Get_started',
           path: '/getStarted',
           builder: (context, params) => const GetStartedWidget(),
-        ),
-        FFRoute(
-          name: 'su_birthday',
-          path: '/suBirthday',
-          builder: (context, params) => const SuBirthdayWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
